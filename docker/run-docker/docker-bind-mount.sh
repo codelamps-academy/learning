@@ -1,0 +1,1 @@
+docker container create --name mongo-server-mount --publish 27018:27017 --mount "type=bind, source=\Users\USER\IdeaProjects\docker-learning\mongo-data, destination=/data/db" --env MONGO_INITDB_ROOT_USERNAME=blackspring --env MONGO_INITDB_ROOT_PASSWORD=blackspring mongo:latest
