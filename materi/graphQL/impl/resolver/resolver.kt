@@ -1,0 +1,3 @@
+class GreetingReppository{
+    private
+}
